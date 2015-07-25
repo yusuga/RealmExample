@@ -2,11 +2,17 @@ PODS:
   - Realm (0.93.2):
     - Realm/Headers (= 0.93.2)
   - Realm/Headers (0.93.2)
+  - YSRealmStore (0.6.4):
+    - Realm (= 0.93.2)
+    - YSRealmStore/Category (= 0.6.4)
+  - YSRealmStore/Category (0.6.4):
+    - Realm (= 0.93.2)
 
 DEPENDENCIES:
-  - Realm (= 0.93.2)
+  - YSRealmStore
 
 SPEC CHECKSUMS:
   Realm: 2fdd0ae74f730e190384e0338d8a0d3654df8220
+  YSRealmStore: cb49cb136dd2d4a057b92f55baebd5fd568d9556
 
 COCOAPODS: 0.38.0
