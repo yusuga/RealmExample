@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.compiler_flags = '-fmodules'
   
-#  s.dependency 'Realm', '0.93.2'
   s.dependency 'YSRealmStore'
+#  s.dependency 'Realm'
 end
