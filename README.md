@@ -53,3 +53,9 @@ The following build commands failed:
 ## 調査中
 
 [RealmExample.podspec](https://github.com/yusuga/RealmExample/blob/master/RealmExample.podspec)に`dependency 'Realm'`を追加せずに`pod lib lint`が通る方法。
+
+## 解決
+
+`--use-libraries`を付ける。
+
+参考: [pod lib lint](https://guides.cocoapods.org/terminal/commands.html#pod_lib_lint), [pod repo push](https://guides.cocoapods.org/terminal/commands.html#pod_repo_push)

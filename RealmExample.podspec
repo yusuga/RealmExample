@@ -13,5 +13,4 @@ Pod::Spec.new do |s|
   s.compiler_flags = '-fmodules'
   
   s.dependency 'YSRealmStore'
-#  s.dependency 'Realm'
 end
